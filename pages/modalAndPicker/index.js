@@ -37,6 +37,7 @@ Page({
       show: !this.data.show,
       buttonDisabled: !this.data.buttonDisabled
     })
+    //为了解决初次选不中的问题
     if (this.data.selectDep == "请选择") {
       this.setData({
         selectDep_id: 1,
