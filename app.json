@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/cityList/index",
+    "pages/modalAndPicker/index",
     "pages/logs/logs"
   ],
   "window":{

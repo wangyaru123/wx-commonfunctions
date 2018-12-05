@@ -1,10 +1,15 @@
 <!--index.wxml-->
 <view class="container">
-   <view class="weui-cells weui-cells_after-title box">
+  <view class="weui-cells weui-cells_after-title box">
     <navigator url="/pages/cityList/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active"> 
       <view class="weui-cell__bd">按首字母检索城市列表</view>
       <view class="weui-cell__ft weui-cell__ft_in-access"></view>
     </navigator>
-   
+  </view> 
+  <view class="weui-cells weui-cells_after-title box">
+    <navigator url="/pages/modalAndPicker/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active"> 
+      <view class="weui-cell__bd">模态框和选择框</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
   </view> 
 </view>
