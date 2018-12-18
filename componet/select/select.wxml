@@ -1,0 +1,14 @@
+<view class='com-selectBox'>
+  <view class='com-sContent' bindtap='selectToggle'>
+    <view class='com-sTxt'>{{nowText}}</view>
+    <image src='../../images/my/down.png'  class='com-sImg'  animation="{{animationData}}"></image>
+  </view>
+  <view class='com-sList' wx:if="{{selectShow}}">
+    <view wx:for="{{propArray}}" data-index="{{index+1}}" wx:key='' class='com-sItem' bindtap='setText' style="color:{{item.text==nowText?'#06a7e2':'#000'}}">
+    {{item.text}}
+    <block wx:if="{{item.text==nowText}}">
+      <image src="/images/my/right.png"></image>
+    </block>
+  </view>
+  </view>
+</view>

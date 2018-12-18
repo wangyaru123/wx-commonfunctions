@@ -12,4 +12,10 @@
       <view class="weui-cell__ft weui-cell__ft_in-access"></view>
     </navigator>
   </view> 
+  <view class="weui-cells weui-cells_after-title box">
+    <navigator url="/pages/ShoppingCart/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active"> 
+      <view class="weui-cell__bd">仿购物车加减件数组件</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+  </view> 
 </view>

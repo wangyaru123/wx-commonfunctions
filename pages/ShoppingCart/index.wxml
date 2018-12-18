@@ -1,0 +1,14 @@
+<view class="channel_tip">
+  <text>注：信道值的范围为1~30</text>
+</view>
+<view class="channel_view">
+  <view class="channel_btn">
+    <view class="view_img_left" bindtap='numminus'>
+      <image src="/images/jianhao.png"></image>
+    </view>
+    <input class="view_text_center" value="{{channelNum}}" bindinput='input_num'></input>
+    <view class="view_img_right" bindtap='numadd'>
+      <image src="/images/add.png"></image>
+    </view>
+  </view>
+</view>

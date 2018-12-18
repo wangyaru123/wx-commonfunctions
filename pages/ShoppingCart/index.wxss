@@ -1,0 +1,58 @@
+
+/* 信道 */
+.channel_tip,.channel_view{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#888;
+}
+.channel_tip{
+  height:50rpx;
+}
+.channel_view{
+  height:100rpx;
+}
+.channel_btn {
+  width: 170rpx;
+  height: 60rpx;
+  border: 1px solid #888;
+  border-radius: 4px;
+  font-size: 22rpx;
+  color: #888;
+  line-height: 60rpx;
+}
+
+.view_text_center, .view_img_left, .view_img_right {
+  float: left;
+}
+
+.view_img_left, .view_img_right {
+  width: 55rpx;
+  height: 60rpx;
+  text-align:center;
+  vertical-align: center;
+}
+
+.view_img_left image, .view_img_right image {
+  width: 100%;
+  height:100%;
+}
+
+.view_img_left {
+  border-right: 1rpx solid #888;
+}
+
+.view_img_right {
+  border-left: 1rpx solid #888;
+}
+
+.view_text_center {
+  width: 58rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 50rpx;
+  box-sizing: border-box;
+  font-size: 22rpx;
+  color: #888;
+}

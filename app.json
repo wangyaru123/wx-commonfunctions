@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/cityList/index",
     "pages/modalAndPicker/index",
+    "pages/ShoppingCart/index",
     "pages/logs/logs"
   ],
   "window":{
